@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+// $header-foreground-color: white;
+// $header-background-color: blue;
+// $ag-border-color: red;
+$ag-header-foreground-color: white;
+$ag-header-background-color: blue;
+$ag-header-icon-color: white;
+$ag-header-border-color: white;
+
+@import "./node_modules/@ag-grid-community/all-modules/dist/styles/ag-grid.scss";
+@import "./node_modules/@ag-grid-community/all-modules/dist/styles/ag-theme-balham/sass/ag-theme-balham.scss";
